@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .container{
     width: 90vw;
-    margin: 0 auto;
+    margin: 0 100;
 }
 .btn{
     background: var(--darkGreen);
@@ -144,15 +144,19 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .about-content img{
     width: 140px;
-    height: 140px;
-    border-radius: 50%;
+    height: auto px;
+    border-radius: 100%;
 }
 .about-img{
+   
     background: #fff;
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 100%;
+    padding: auto;
+    margin: 120px auto 20px auto;
+   
 }
 .about-content h2{
     font-size: 48px;
@@ -177,6 +181,8 @@ blockquote{
     margin: 45px auto 15px auto;
     text-align: center;
 }
+
+
 blockquote span{
     font-size: 14px;
     text-transform: uppercase;
