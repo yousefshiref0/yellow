@@ -148,11 +148,15 @@ h1, h2, h3, h4, h5, h6, p{
     border-radius: 50%;
 }
 .about-img{
+   
     background: #fff;
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 100%;
+    padding: auto;
+    margin: 120px auto 20px auto;
+   
 }
 .about-content h2{
     font-size: 48px;
